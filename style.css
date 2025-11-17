@@ -1,0 +1,77 @@
+body{
+    font-family: Arial;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+.container{
+    max-width: 650px;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+#addbtn{
+    background: white;
+    color: #667eea;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.note{
+    background: #fff3cd;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 15px;
+    position: relative;
+}
+
+.note.pinned{
+    border: 3px solid gold;
+}
+
+.pinbtn{
+    position: absolute;
+    top: 10px; right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    resize: vertical;
+    font-family: inherit;
+}
+textarea:disabled{ color: #333; }
+
+.btns{ margin-top: 10px; }
+
+button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.clr{
+    display: inline-block;
+    width: 25px; height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 5px;
+}
